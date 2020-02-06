@@ -1,0 +1,72 @@
+{
+  "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
+  "editor.fontSize": 18,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "none",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "emmet.showExpandedAbbreviation": "never",
+  "eslint.alwaysShowStatus": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "files.associations": {
+    ".stylelintrc": "json",
+    ".lintstagedrc": "json"
+  },
+  "gitlens.mode.active": "review",
+  "javascript.suggest.autoImports": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "json.format.enable": true,
+  "less.validate": false,
+  "prettier.jsxBracketSameLine": true,
+  "scss.validate": false,
+  "typescript.suggest.autoImports": false,
+  "typescript.tsserver.log": "verbose",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Mariana Pro (Warm)",
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+  "vim.easymotionMarkerFontSize": "14px",
+  "vim.easymotionMarkerFontFamily": "monospace",
+  "vim.easymotionMarkerFontWeight": "600",
+  "vim.easymotionMarkerBackgroundColor": "white",
+  "vim.easymotionMarkerForegroundColorOneChar": "black",
+  "vim.easymotionMarkerForegroundColorTwoChar": "black",
+  "vim.easymotionMarkerHeight": 20,
+  "vim.easymotionMarkerWidthPerChar": 12,
+  "vim.surround": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "todo-tree.highlights.enabled": true
+}
