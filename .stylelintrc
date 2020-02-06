@@ -1,0 +1,21 @@
+{
+  "plugins": ["stylelint-prettier", "stylelint-order"],
+  "ignoreFiles": ["**/*.js", "**/*.ts", "**/*.tsx"],
+  "rules": {
+    "prettier/prettier": true,
+    "color-no-invalid-hex": true,
+    "declaration-colon-space-after": "always",
+    "max-empty-lines": 2,
+    "no-duplicate-at-import-rules": true,
+    "no-extra-semicolons": true,
+    "order/properties-alphabetical-order": true,
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": ["first-nested"],
+        "ignore": ["after-comment"]
+      }
+    ]
+  }
+}
+
