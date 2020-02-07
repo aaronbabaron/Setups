@@ -53,6 +53,18 @@
   "vim.easymotionMarkerHeight": 20,
   "vim.easymotionMarkerWidthPerChar": 12,
   "vim.surround": true,
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<space>"
+      ],
+      "after": [
+        "<leader>",
+        "<leader>"
+      ]
+    }
+  ],
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
