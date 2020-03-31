@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   env: {
     browser: true,
@@ -95,8 +97,8 @@ module.exports = {
     'import/default': 'off',
     // Causes issues with older modules that are still using module.exports
     'import/namespace': 'off',
-    // Causes issues with submodule imports
-    'import/no-extraneous-dependencies': 'warn',
+    // Causes issues when importing submodules
+    'import/no-extraneous-dependencies': 'off',
     // This will automatically sort the import declarations but not the members within the imports.
     // We will use sort-imports to handle the member sort
     'import/order': [
